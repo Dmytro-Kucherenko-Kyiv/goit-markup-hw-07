@@ -1,0 +1,60 @@
+.footer-subscription {
+  margin-left: 93px;
+}
+
+.footer-field {
+  margin-top: 20px;
+  display: flex;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: transparent;
+  color: var(--white-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: transparent;
+  transition: border-color var(--animation);
+}
+
+.footer-input:focus {
+  border-color: var(--accent-color);
+}
+
+.footer-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-submit {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  transition: background-color var(--animation);
+}
+
+.footer-submit:hover {
+  background-color: var(--button-active);
+}
+
+.footer-input-icon {
+  fill: var(--white-color);
+  margin-left: 10px;
+}
