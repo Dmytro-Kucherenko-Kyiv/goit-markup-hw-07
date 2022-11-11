@@ -41,9 +41,9 @@
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
 
-.banner-button:hover {
-  background-color: var(--button-active);
-  transition: background-color var(--animation);
+  &:hover {
+    background-color: var(--button-active);
+    transition: background-color var(--animation);
+  }
 }

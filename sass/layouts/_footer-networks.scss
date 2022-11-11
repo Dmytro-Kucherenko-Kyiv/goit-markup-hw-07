@@ -33,10 +33,10 @@
   justify-content: center;
   fill: var(--white-color);
   transition: background-color var(--animation), fill var(--animation);
-}
 
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+  }
 }

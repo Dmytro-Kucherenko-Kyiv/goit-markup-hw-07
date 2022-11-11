@@ -18,17 +18,17 @@
   border-radius: 4px;
   outline: transparent;
   transition: border-color var(--animation);
-}
 
-.footer-input:focus {
-  border-color: var(--accent-color);
-}
+  &:focus {
+    border-color: var(--accent-color);
+  }
 
-.footer-input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .footer-submit {
@@ -48,10 +48,10 @@
   align-items: center;
   margin-left: 12px;
   transition: background-color var(--animation);
-}
 
-.footer-submit:hover {
-  background-color: var(--button-active);
+  &:hover {
+    background-color: var(--button-active);
+  }
 }
 
 .footer-input-icon {

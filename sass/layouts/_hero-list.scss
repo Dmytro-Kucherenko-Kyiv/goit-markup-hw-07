@@ -6,11 +6,11 @@
 
 .hero-item {
   width: 270px;
-}
 
-.hero-item:nth-child(2),
-.hero-item:nth-child(3) {
-  height: 224px;
+  &:nth-child(2),
+  &:nth-child(3) {
+    height: 224px;
+  }
 }
 
 .hero-icon-box {

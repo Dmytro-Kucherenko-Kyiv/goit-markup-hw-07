@@ -16,10 +16,13 @@
   gap: 50px;
   position: relative;
   transition: color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.header-link:hover,
-.header-link:focus,
 .current:visited {
   color: var(--accent-color);
 }

@@ -17,11 +17,11 @@
   align-items: center;
   justify-content: center;
   transition: border-color var(--animation);
-}
 
-.partners-link:hover,
-.partners-link:focus {
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .partners-icon {

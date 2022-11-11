@@ -18,9 +18,9 @@
   align-items: center;
   gap: 10px;
   transition: color var(--animation);
-}
 
-.contact-link:hover,
-.contact-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

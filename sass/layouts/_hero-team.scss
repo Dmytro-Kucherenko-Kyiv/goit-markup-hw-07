@@ -62,10 +62,10 @@
   justify-content: center;
   fill: var(--icon-color);
   transition: background-color var(--animation), fill var(--animation);
-}
 
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: var(--accent-color);
-  fill: var(--white-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--white-color);
+  }
 }

@@ -7,12 +7,13 @@
   line-height: 1.71;
   color: var(--white-color);
   transition: color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
-.adds:hover,
-.adds:focus {
-  color: var(--accent-color);
-}
 
 .footer-contact-link {
   font-style: normal;
@@ -20,9 +21,9 @@
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--animation);
-}
 
-.footer-contact-link:hover,
-.footer-contact-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
