@@ -41,9 +41,9 @@
     fill: var(--icon-color);
     transition: fill var(--animation);
 
-  .partners:hover &,
-  .partners:focus & {
-          fill: var(--accent-color);
-        }
+  .partners-link:hover &,
+  .partners-link:focus & {
+    fill: var(--accent-color);
+  }
   }
 }
