@@ -272,6 +272,7 @@ main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: none;
   text-align: center;
   color: var(--secondary-text-color);
   margin-bottom: 50px;
@@ -297,18 +298,6 @@ main {
   color: var(--white-color);
 }
 
-/*
-.projects-title,
-.team-title,
-.partners-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--secondary-text-color);
-  margin-bottom: 50px;
-}
-*/
 .team {
   background: var(--background-our-team);
   padding-top: 94px;
@@ -318,6 +307,7 @@ main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: none;
   text-align: center;
   color: var(--secondary-text-color);
   margin-bottom: 50px;
@@ -388,6 +378,7 @@ main {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: none;
   text-align: center;
   color: var(--secondary-text-color);
   margin-bottom: 50px;
@@ -656,8 +647,8 @@ address {
   border-radius: 4px;
   border: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-left: 12px;
   transition: background-color var(--animation);
 }

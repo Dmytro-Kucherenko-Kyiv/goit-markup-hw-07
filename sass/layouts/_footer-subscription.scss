@@ -50,9 +50,8 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: transparent;
-    display: flex;
+    @include align-list;
     justify-content: center;
-    align-items: center;
     margin-left: 12px;
     transition: background-color var(--animation);
 

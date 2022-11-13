@@ -21,8 +21,7 @@
     margin-bottom: 30px;
     background: var(--background-our-team);
     border-radius: 4px;
-    display: flex;
-    align-items: center;
+    @include align-list;
     justify-content: center;
   }
 

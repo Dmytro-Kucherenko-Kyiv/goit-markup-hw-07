@@ -1,5 +1,5 @@
 .header {
-  
+
   &-contacts {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -17,8 +17,7 @@
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   fill: currentColor;
-  display: flex;
-  align-items: center;
+  @include align-list;
   gap: 10px;
   transition: color var(--animation);
 
