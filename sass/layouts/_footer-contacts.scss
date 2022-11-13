@@ -1,5 +1,8 @@
-.contact-item:not(:last-child) {
+.contact-item {
+
+  &:not(:last-child) {
   margin-bottom: 9px;
+  }
 }
 
 .adds {
@@ -13,7 +16,6 @@
     color: var(--accent-color);
   }
 }
-
 
 .footer-contact-link {
   font-style: normal;

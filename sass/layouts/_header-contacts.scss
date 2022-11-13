@@ -1,11 +1,14 @@
-.header-contacts {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
+.header {
+  
+  &-contacts {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 
-.header-contacts-list {
-  display: flex;
-  gap: 30px;
+  &-contacts-list {
+    display: flex;
+    gap: 30px;
+  }
 }
 
 .contact-link {
