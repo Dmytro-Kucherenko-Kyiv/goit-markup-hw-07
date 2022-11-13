@@ -6,11 +6,17 @@
   color: var(--accent-color);
 }
 
-.header-logo {
+.navigation__logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.word-studio-1 {
+/*---------- modifier ----------*/
+
+.studio--color-light {
   color: var(--secondary-text-color);
+}
+
+.studio--color-dark {
+  color: var(--white-color);
 }
