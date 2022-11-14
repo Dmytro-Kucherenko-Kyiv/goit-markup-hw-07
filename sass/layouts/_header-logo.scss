@@ -1,4 +1,6 @@
 .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -6,17 +8,12 @@
   color: var(--accent-color);
 }
 
-.navigation__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 /*---------- modifier ----------*/
 
-.studio--color-light {
+.logo--color-light {
   color: var(--secondary-text-color);
 }
 
-.studio--color-dark {
+.logo--color-dark {
   color: var(--white-color);
 }

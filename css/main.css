@@ -105,7 +105,9 @@ main {
   z-index: 5;
 }
 
-.logo {
+.navigation__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -113,25 +115,20 @@ main {
   color: var(--accent-color);
 }
 
-.navigation__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
 /*---------- modifier ----------*/
-.studio--color-light {
+.logo--color-light {
   color: var(--secondary-text-color);
 }
 
-.studio--color-dark {
+.logo--color-dark {
   color: var(--white-color);
 }
 
-.header__navigation {
+.navigation {
   display: flex;
 }
 
-.menu__list {
+.menu {
   padding: 32px 318px 32px 93px;
   display: flex;
   gap: 50px;
@@ -423,15 +420,15 @@ main {
   fill: var(--accent-color);
 }
 
-.filter-container {
+.galary__container {
   margin-bottom: 50px;
 }
-.filter-list {
+.galary__list {
   display: flex;
   gap: 8px;
   justify-content: center;
 }
-.filter-btn {
+.galary__btn {
   border: 0;
   border-radius: 0;
   color: var(--secondary-text-color);
@@ -443,7 +440,7 @@ main {
   border-radius: 4px;
   transition: color var(--animation), background-color var(--animation), box-shadow var(--animation);
 }
-.filter-btn:hover, .filter-btn:focus, .filter-btn:visited {
+.galary__btn:hover, .galary__btn:focus, .galary__btn:visited {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -457,38 +454,38 @@ main {
   text-align: center;
 }
 
-.project {
+.cards {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.project-list {
+.cards__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
-.project-item:hover .definition-text {
+.cards__item:hover .definition-text {
   transform: translateY(0);
 }
-.project-card {
+.cards__wrap {
   transition: box-shadow var(--animation);
 }
-.project-card:hover, .project-card:focus {
+.cards__wrap:hover, .cards__wrap:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.project-definition {
+.cards__content {
   position: relative;
   overflow: hidden;
   transition: opacity var(--animation);
 }
-.project-name {
+.cards-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
-.project-type {
+.cards-type {
   font-size: 16px;
   line-height: 1.88;
   color: var(--primary-text-color);
@@ -531,7 +528,7 @@ address {
   gap: 70px;
 }
 
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
 }

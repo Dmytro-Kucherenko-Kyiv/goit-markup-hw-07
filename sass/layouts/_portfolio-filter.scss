@@ -1,16 +1,16 @@
-.filter {
-  
-  &-container {
+.galary {
+
+  &__container {
     margin-bottom: 50px;
   }
 
-  &-list {
+  &__list {
     display: flex;
     gap: 8px;
     justify-content: center;
   }
 
-  &-btn {
+  &__btn {
     border: 0;
     border-radius: 0;
     color: var(--secondary-text-color);

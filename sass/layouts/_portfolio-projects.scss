@@ -1,21 +1,21 @@
-.project {
+.cards {
   padding-bottom: 94px;
   padding-top: 94px;
 
-  &-list {
+  &__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
   }
 
-  &-item {
+  &__item {
     &:hover .definition-text {
       transform: translateY(0);
     }
   }
 
-  &-card {
+  &__wrap {
     transition: box-shadow var(--animation);
 
     &:hover,
@@ -26,7 +26,7 @@
     }
   }
 
-  &-definition {
+  &__content {
     position: relative;
     overflow: hidden;
     transition: opacity var(--animation);
