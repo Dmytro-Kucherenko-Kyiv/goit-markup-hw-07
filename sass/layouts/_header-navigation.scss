@@ -1,4 +1,4 @@
-.navigation {
+.header__navigation {
   display: flex;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .current {
-  
+
   &:visited {
     color: var(--accent-color);
   }
@@ -40,5 +40,3 @@
     position: absolute;
   }
 }
-
-

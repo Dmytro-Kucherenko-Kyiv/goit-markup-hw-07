@@ -105,14 +105,17 @@ main {
   z-index: 5;
 }
 
-.navigation__logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
+}
+
+.navigation__logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /*---------- modifier ----------*/
@@ -124,7 +127,7 @@ main {
   color: var(--white-color);
 }
 
-.navigation {
+.header__navigation {
   display: flex;
 }
 
@@ -160,7 +163,7 @@ main {
   position: absolute;
 }
 
-.header__contacts {
+.navigation__contacts {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -182,10 +185,6 @@ main {
 }
 .contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
-}
-
-.hero {
-  padding-top: 94px;
 }
 
 .main__banner {
@@ -234,9 +233,10 @@ main {
   transition: background-color var(--animation);
 }
 
-.features {
+.main__features {
   padding-top: 94px;
 }
+
 .features__list {
   height: 248px;
   display: flex;
@@ -271,7 +271,7 @@ main {
   color: var(--primary-text-color);
 }
 
-.projects__pictures {
+.main__pictures {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -306,11 +306,12 @@ main {
   color: var(--white-color);
 }
 
-.people__team {
+.main__people {
   background: var(--background-our-team);
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .people__title {
   font-weight: 700;
   font-size: 36px;
@@ -377,7 +378,7 @@ main {
   fill: var(--white-color);
 }
 
-.partners__icons {
+.main__partners {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -420,6 +421,10 @@ main {
   fill: var(--accent-color);
 }
 
+.galary__main {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .galary__container {
   margin-bottom: 50px;
 }
@@ -445,8 +450,7 @@ main {
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-.btn-title {
+.galary__btn-title {
   font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
@@ -454,44 +458,28 @@ main {
   text-align: center;
 }
 
-.cards {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-.cards__list {
+.grid__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
 }
-.cards__item:hover .definition-text {
+.grid__item:hover .product__text {
   transform: translateY(0);
 }
-.cards__wrap {
+
+.product {
   transition: box-shadow var(--animation);
 }
-.cards__wrap:hover, .cards__wrap:focus {
+.product:hover, .product:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.cards__content {
+.product__wrap {
   position: relative;
   overflow: hidden;
   transition: opacity var(--animation);
 }
-.cards-name {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
-}
-.cards-type {
-  font-size: 16px;
-  line-height: 1.88;
-  color: var(--primary-text-color);
-}
-
-.definition-text {
+.product__text {
   position: absolute;
   top: 0;
   left: 0;
@@ -505,11 +493,23 @@ main {
   transition: transform var(--animation);
   overflow: auto;
 }
-
-.portfolio-description {
+.product__description {
   background: var(--white-color);
   padding: 20px 24px;
   border: 1px solid #EEEEEE;
+}
+
+.description__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.description__text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
 }
 
 footer {

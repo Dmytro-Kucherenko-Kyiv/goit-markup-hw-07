@@ -1,10 +1,10 @@
-.people {
-
-  &__team {
+.main__people {
   background: var(--background-our-team);
   padding-top: 94px;
   padding-bottom: 94px;
   }
+  
+.people {
 
   &__title {
     @include font(700, 36px, 1.17, none);
