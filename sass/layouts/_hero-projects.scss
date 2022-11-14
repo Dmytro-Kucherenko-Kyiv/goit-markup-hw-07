@@ -1,25 +1,28 @@
-.projects {
+.projects__pictures {
   padding-top: 94px;
   padding-bottom: 94px;
+}
 
-  &-title {
+.pictures {
+
+  &__title {
     @include font(700, 36px, 1.17, none);
     text-align: center;
     color: var(--secondary-text-color);
     margin-bottom: 50px;
   }
 
-  &-list {
+  &__list {
       display: flex;
       gap: 30px;
       justify-content: space-evenly;
     }
   
-  &-card {
+  &__wrap {
     position: relative;
     }
   
-  &-description {
+  &__text {
     position: absolute;
     bottom: 0;
     @include align-list;
